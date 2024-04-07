@@ -9,6 +9,7 @@ import {
 import "react-vertical-timeline-component/style.min.css";
 import { experiencesData } from "@/lib/data";
 import { useSectionInView } from "@/lib/hooks";
+import { inView } from "framer-motion";
 
 export default function Experience() {
   const { ref } = useSectionInView("Experience");
@@ -20,6 +21,7 @@ export default function Experience() {
         {experiencesData.map((item, index) => (
           <React.Fragment key={index}>
             <VerticalTimelineElement
+              visible={true}
               contentStyle={{
                 background:"#f3f4f6",
                 boxShadow: "none",
