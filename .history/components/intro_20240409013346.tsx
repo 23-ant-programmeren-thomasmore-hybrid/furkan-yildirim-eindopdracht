@@ -31,7 +31,7 @@ export default function Intro() {
             }}
           >
             <Image
-              src="https://i.dunya.com/storage/files/images/2023/10/29/icardi-galatasaray-v2lj_cover.jpg"
+              src="  https://i.dunya.com/storage/files/images/2023/10/29/icardi-galatasaray-v2lj_cover.jpg"
               alt="Ricardo portrait"
               width="192"
               height="192"

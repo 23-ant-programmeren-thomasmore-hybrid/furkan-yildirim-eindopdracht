@@ -34,7 +34,6 @@ export default function RootLayout({
         <Toaster position="top-right" />
         </ActiveSectionContextProvider>
         <ThemeSwitch/>
-        </ThemeContextProvider>
  
         
       </body>

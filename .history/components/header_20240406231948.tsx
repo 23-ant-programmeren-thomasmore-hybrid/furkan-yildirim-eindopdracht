@@ -9,6 +9,7 @@ import { useActiveSectionContext } from "@/context/active-section-context";
 
 export default function Header() {
   
+  // const [activeSection, setActiveSection] = useState("Home");
      const { activeSection, setActiveSection, setTimeOfLastClick } = useActiveSectionContext();
    
 
