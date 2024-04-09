@@ -2,9 +2,9 @@ import React from "react";
 import { CgWorkAlt } from "react-icons/cg";
 import { FaReact } from "react-icons/fa";
 import { LuGraduationCap } from "react-icons/lu";
-import portfolioImg from "@/public/firstapp.png";
-import NBAapp from "@/public/nbaapp.png";
-import travelImg from "@/public/style.png";
+import corpcommentImg from "@/public/firstapp.png";
+import rmtdevImg from "@/public/nbaapp.png";
+import wordanalyticsImg from "@/public/style.png";
 
 export const links = [
   {
@@ -39,11 +39,11 @@ export const experiencesData = [
     location: "Istanbul, Turkey",
     description:
       "I studied business administration for 1 year at Marmara University. This foundational experience gave me a strong understanding of business fundamentals, which later helped me navigate the tech industry's business aspects. It was here that I first discovered my interest in technology and innovation.",
-    icon: React.createElement(CgWorkAlt),
+    icon: React.createElement(LuGraduationCap),
     date: "2019",
   },
   {
-    title: "Graduated bootcamp",
+    title: "Full-Stack Bootcamp",
     location: "LA, USA",
     description:
       "I followed a 6-month full-stack bootcamp online from the USA. This intense program was a turning point, where I acquired hands-on skills in web development, programming languages, and modern frameworks. It challenged me to solve complex problems and build real-world projects, setting a solid foundation for my programming career.",
@@ -58,7 +58,14 @@ export const experiencesData = [
     icon: React.createElement(FaReact),
     date: "2022 - 2024",
   },
-  
+  {
+    title: "Full-Stack Developer",
+    location: "Antwerp, Belgium",
+    description:
+      "I'm now a full-stack developer working as a freelancer. My stack includes React, Next.js, TypeScript, Tailwind, Prisma, and MongoDB. I'm open to full-time opportunities. Working as a freelancer has taught me the importance of self-discipline, effective communication, and project management. I've had the chance to work on diverse projects, gaining insights into various industries and continuously expanding my technical and soft skills.",
+    icon: React.createElement(CgWorkAlt),
+    date: "2024 - present",
+  },
 ] as const;
 
 
@@ -68,21 +75,21 @@ export const projectsData = [
     description:
       "I worked as a full-stack developer student on this startup project 1 year ago. Users can access my information.",
     tags: ["HTML", "CSS", "JAVA"],
-    imageUrl: portfolioImg,
+    imageUrl: corpcommentImg,
   },
   {
     title: "NBA App",
     description:
       "I created a comprehensive NBA website containing information about the NBA. You can access the matches, teams and all players' information in the application.",
     tags: ["React", "JAVA", "CSS", "Tailwind","HTML","SQL"],
-    imageUrl: NBAapp,
+    imageUrl: rmtdevImg,
   },
   {
     title: "Word Analytics",
     description:
       "I made a style page about places to visit and see in Turkey. My page provides an opportunity for travel lovers to get to know Turkey better.",
     tags: ["JAVA", "CSS", "SQL", "Tailwind", "HTML"],
-    imageUrl: travelImg,
+    imageUrl: wordanalyticsImg,
   },
 ] as const;
 

@@ -4,7 +4,7 @@ import { FaReact } from "react-icons/fa";
 import { LuGraduationCap } from "react-icons/lu";
 import portfolioImg from "@/public/firstapp.png";
 import NBAapp from "@/public/nbaapp.png";
-import travelImg from "@/public/style.png";
+import wordanalyticsImg from "@/public/style.png";
 
 export const links = [
   {
@@ -82,7 +82,7 @@ export const projectsData = [
     description:
       "I made a style page about places to visit and see in Turkey. My page provides an opportunity for travel lovers to get to know Turkey better.",
     tags: ["JAVA", "CSS", "SQL", "Tailwind", "HTML"],
-    imageUrl: travelImg,
+    imageUrl: wordImg,
   },
 ] as const;
 

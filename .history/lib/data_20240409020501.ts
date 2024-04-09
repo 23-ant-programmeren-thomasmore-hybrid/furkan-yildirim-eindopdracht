@@ -2,9 +2,9 @@ import React from "react";
 import { CgWorkAlt } from "react-icons/cg";
 import { FaReact } from "react-icons/fa";
 import { LuGraduationCap } from "react-icons/lu";
-import portfolioImg from "@/public/firstapp.png";
-import NBAapp from "@/public/nbaapp.png";
-import travelImg from "@/public/style.png";
+import corpcommentImg from "@/public/firstapp.png";
+import rmtdevImg from "@/public/nbaapp.png";
+import wordanalyticsImg from "@/public/style.png";
 
 export const links = [
   {
@@ -35,32 +35,30 @@ export const links = [
 
 export const experiencesData = [
   {
-    title: "Business",
-    location: "Istanbul, Turkey",
+    title: "Graduated bootcamp",
+    location: "Miami, FL",
     description:
-      "I studied business administration for 1 year at Marmara University. This foundational experience gave me a strong understanding of business fundamentals, which later helped me navigate the tech industry's business aspects. It was here that I first discovered my interest in technology and innovation.",
-    icon: React.createElement(CgWorkAlt),
+      "I graduated after 6 months of studying. I immediately found a job as a front-end developer.",
+    icon: React.createElement(LuGraduationCap),
     date: "2019",
   },
   {
-    title: "Graduated bootcamp",
-    location: "LA, USA",
+    title: "Front-End Developer",
+    location: "Orlando, FL",
     description:
-      "I followed a 6-month full-stack bootcamp online from the USA. This intense program was a turning point, where I acquired hands-on skills in web development, programming languages, and modern frameworks. It challenged me to solve complex problems and build real-world projects, setting a solid foundation for my programming career.",
-    icon: React.createElement(LuGraduationCap),
-    date: "2021",
+      "I worked as a front-end developer for 2 years in 1 job and 1 year in another job. I also upskilled to the full stack.",
+    icon: React.createElement(CgWorkAlt),
+    date: "2019 - 2021",
   },
   {
-    title: "Programming Student",
-    location: "Antwerp, Belgium",
+    title: "Full-Stack Developer",
+    location: "Houston, TX",
     description:
-      "I am studying software at Thomas More university. This program is not only about enhancing my technical skills but also about understanding the broader context of software development within society. It's here that I've learned to appreciate the importance of software in solving real-world issues, from small-scale apps to large, complex systems.",
+      "I'm now a full-stack developer working as a freelancer. My stack includes React, Next.js, TypeScript, Tailwind, Prisma and MongoDB. I'm open to full-time opportunities.",
     icon: React.createElement(FaReact),
-    date: "2022 - 2024",
+    date: "2021 - present",
   },
-  
 ] as const;
-
 
 export const projectsData = [
   {
@@ -68,21 +66,21 @@ export const projectsData = [
     description:
       "I worked as a full-stack developer student on this startup project 1 year ago. Users can access my information.",
     tags: ["HTML", "CSS", "JAVA"],
-    imageUrl: portfolioImg,
+    imageUrl: corpcommentImg,
   },
   {
     title: "NBA App",
     description:
       "I created a comprehensive NBA website containing information about the NBA. You can access the matches, teams and all players' information in the application.",
     tags: ["React", "JAVA", "CSS", "Tailwind","HTML","SQL"],
-    imageUrl: NBAapp,
+    imageUrl: rmtdevImg,
   },
   {
     title: "Word Analytics",
     description:
       "I made a style page about places to visit and see in Turkey. My page provides an opportunity for travel lovers to get to know Turkey better.",
     tags: ["JAVA", "CSS", "SQL", "Tailwind", "HTML"],
-    imageUrl: travelImg,
+    imageUrl: wordanalyticsImg,
   },
 ] as const;
 
@@ -96,14 +94,13 @@ export const skillsData = [
   "Node.js",
   "Git",
   "Tailwind",
+  "Prisma",
   "MongoDB",
+  "Redux",
   "GraphQL",
+  "Apollo",
+  "Express",
   "PostgreSQL",
   "Python",
   "Framer Motion",
-  "Java",
-  "Spring",
-  "Linux",
-  "Cypress",
-  "SqlLite",
 ] as const;

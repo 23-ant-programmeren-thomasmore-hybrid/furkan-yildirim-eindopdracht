@@ -2,9 +2,9 @@ import React from "react";
 import { CgWorkAlt } from "react-icons/cg";
 import { FaReact } from "react-icons/fa";
 import { LuGraduationCap } from "react-icons/lu";
-import portfolioImg from "@/public/firstapp.png";
-import NBAapp from "@/public/nbaapp.png";
-import travelImg from "@/public/style.png";
+import portfolio from "@/public/firstapp.png";
+import rmtdevImg from "@/public/nbaapp.png";
+import wordanalyticsImg from "@/public/style.png";
 
 export const links = [
   {
@@ -75,14 +75,14 @@ export const projectsData = [
     description:
       "I created a comprehensive NBA website containing information about the NBA. You can access the matches, teams and all players' information in the application.",
     tags: ["React", "JAVA", "CSS", "Tailwind","HTML","SQL"],
-    imageUrl: NBAapp,
+    imageUrl: rmtdevImg,
   },
   {
     title: "Word Analytics",
     description:
       "I made a style page about places to visit and see in Turkey. My page provides an opportunity for travel lovers to get to know Turkey better.",
     tags: ["JAVA", "CSS", "SQL", "Tailwind", "HTML"],
-    imageUrl: travelImg,
+    imageUrl: wordanalyticsImg,
   },
 ] as const;
 
