@@ -5,7 +5,8 @@ import { LuGraduationCap } from "react-icons/lu";
 import portfolioImg from "@/public/firstapp.png";
 import NBAapp from "@/public/nbaapp.png";
 import travelImg from "@/public/style.png";
-
+import { FontAwesomeIcon } from '@fortawesome/react-fontawesome';
+import { faTwitter, faFacebookF, faInstagram } from '@fortawesome/free-brands-svg-icons';
 
 export const links = [
   {
@@ -109,3 +110,9 @@ export const skillsData = [
   "SqlLite",
 ] as const;
 
+// Sosyal Medya Linkleri ve İkonları
+export const socialLinks = [
+  { name: 'Twitter', url: 'https://twitter.com', icon: <FontAwesomeIcon icon={faTwitter} /> },
+  { name: 'Facebook', url: 'https://facebook.com', icon: <FontAwesomeIcon icon={faFacebookF} /> },
+  { name: 'Instagram', url: 'https://instagram.com', icon: <FontAwesomeIcon icon={faInstagram} /> },
+] as const;

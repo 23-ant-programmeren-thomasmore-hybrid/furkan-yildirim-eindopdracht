@@ -6,7 +6,6 @@ import portfolioImg from "@/public/firstapp.png";
 import NBAapp from "@/public/nbaapp.png";
 import travelImg from "@/public/style.png";
 
-
 export const links = [
   {
     name: "Home",
@@ -108,4 +107,3 @@ export const skillsData = [
   "Cypress",
   "SqlLite",
 ] as const;
-

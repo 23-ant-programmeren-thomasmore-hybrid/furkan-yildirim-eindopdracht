@@ -5,7 +5,8 @@ import { LuGraduationCap } from "react-icons/lu";
 import portfolioImg from "@/public/firstapp.png";
 import NBAapp from "@/public/nbaapp.png";
 import travelImg from "@/public/style.png";
-
+import { FontAwesomeIcon } from '@fortawesome/react-fontawesome';
+import { faTwitter, faFacebookF, faInstagram } from '@fortawesome/free-brands-svg-icons';
 
 export const links = [
   {

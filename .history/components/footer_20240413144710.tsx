@@ -1,19 +1,16 @@
-'use client'
 
 import React from 'react';
 import { motion } from 'framer-motion';
-import { FaTwitter, FaFacebookF, FaInstagram, FaGithub } from 'react-icons/fa';
+import { FaTwitter, FaFacebookF, FaInstagram } from 'react-icons/fa';
 
 export default function Footer() {
-  const companyName = "Furkan Yildirim";
-  const description = "This project was made using Next.js, Tailwind Css and Framer Motion.";
+  // Şirket bilgileri ve sosyal medya linkleri
+  const companyName = "Şirket Adı";
+  const description = "Şirketinizin kısa açıklaması buraya gelebilir.";
   const socialLinks = [
     { name: 'Twitter', url: 'https://twitter.com', icon: <FaTwitter size={24} /> },
     { name: 'Facebook', url: 'https://facebook.com', icon: <FaFacebookF size={24} /> },
     { name: 'Instagram', url: 'https://instagram.com', icon: <FaInstagram size={24} /> },
-    { name: 'Github', url: 'https://github.com', icon: <FaGithub size={24} /> },
-
-
   ];
 
   return (
