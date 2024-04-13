@@ -3,14 +3,13 @@
 import React from 'react';
 import { motion } from 'framer-motion';
 import { hobbiesData } from '@/lib/data'; 
-import SectionHeading from './section-heading';
 
 function Hobbies() {
   return (
     <section className="mb-28 max-w-[60rem] text-center leading-8 sm:mb-40 scroll-mt-28">
       <div className="container mx-auto">
         <div className="text-center">
-        <SectionHeading>Hobbies</SectionHeading>
+          <h2 className="text-3xl font-bold mb-4">Hobbies</h2>
           <p className="mb-12 text-lg text-gray-600">Here's a glimpse of what I do in my spare time.</p>
         </div>
 

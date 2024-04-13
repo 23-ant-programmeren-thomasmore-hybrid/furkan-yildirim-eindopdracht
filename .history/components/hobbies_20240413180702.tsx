@@ -10,7 +10,7 @@ function Hobbies() {
     <section className="mb-28 max-w-[60rem] text-center leading-8 sm:mb-40 scroll-mt-28">
       <div className="container mx-auto">
         <div className="text-center">
-        <SectionHeading>Hobbies</SectionHeading>
+        <SectionHeading>About me</SectionHeading>
           <p className="mb-12 text-lg text-gray-600">Here's a glimpse of what I do in my spare time.</p>
         </div>
 
