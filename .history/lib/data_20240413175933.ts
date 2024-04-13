@@ -122,7 +122,7 @@ export const hobbiesData = [
   {
     id: 'music',
     icon: FaMusic,
-    title: 'Music',
+    title: 'Müsic',
     description: 'Playing guitar and creating new melodies is a passion for me.'
   },
   {
@@ -134,19 +134,19 @@ export const hobbiesData = [
   {
     id: 'hiking',
     icon: FaWalking,
-    title: 'Walking',
+    title: 'Yürüyüş',
     description: 'Walking in nature gives me peace and inspiration.'
   },
   {
     id: 'reading',
     icon: FaBookOpen,
     title: 'Watching Films',
-    description: 'I love watching films to dive into different worlds and discover new ideas.'
+    description: 'I love watching to dive into different worlds and discover new ideas.'
   },
   {
     id: 'football',
     icon: FaStar,
     title: 'Football',
-    description: 'Playing and watching football.'
+    description: 'Yıldızları ve uzayı incelemek, evrenin büyüklüğü hakkında düşündürüyor.'
   }
 ] as const;

@@ -7,6 +7,7 @@ import { useSectionInView } from "@/lib/hooks";
 
 export default function About() {
   const { ref } = useSectionInView("About");
+  const bgColor = useTransform(scrollYProgress, [0, 1], ["#ffffff", "#f0f0f0"]);
 
   const sectionVariants = {
     hidden: { opacity: 0, y: 50 },
@@ -33,6 +34,7 @@ export default function About() {
       animate={{ opacity: 1, y: 0 }}
       exit="exit"
       id="about"
+      style={{ backgroundColor: bgColor }}
     >
       <SectionHeading>About me</SectionHeading>
       <motion.p

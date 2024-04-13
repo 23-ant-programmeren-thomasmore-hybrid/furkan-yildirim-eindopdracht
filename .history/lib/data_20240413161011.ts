@@ -111,42 +111,42 @@ export const skillsData = [
   "SqlLite",
 ] as const;
 
-
-export const hobbiesData = [
+const hobbies = [
   {
     id: 'photography',
-    icon: FaCameraRetro,
-    title: 'Photography',
-    description: 'I love shooting nature scenes and immortalizing the moment.'
+    icon: <FaCameraRetro className="text-5xl text-blue-500" />,
+    title: 'Fotoğrafçılık',
+    description: 'Doğa manzaraları çekmeyi ve anı ölümsüzleştirmeyi seviyorum.'
   },
   {
     id: 'music',
-    icon: FaMusic,
-    title: 'Music',
-    description: 'Playing guitar and creating new melodies is a passion for me.'
+    icon: <FaMusic className="text-5xl text-green-500" />,
+    title: 'Müzik',
+    description: 'Gitar çalmak ve yeni melodiler yaratmak benim için bir tutku.'
   },
   {
     id: 'coding',
-    icon: FaCode,
-    title: 'Coding',
-    description: 'I enjoy learning new technologies and developing projects.'
+    icon: <FaCode className="text-5xl text-red-500" />,
+    title: 'Kodlama',
+    description: 'Yeni teknolojiler öğrenmek ve projeler geliştirmekten keyif alıyorum.'
   },
   {
     id: 'hiking',
-    icon: FaWalking,
-    title: 'Walking',
-    description: 'Walking in nature gives me peace and inspiration.'
+    icon: <FaWalking className="text-5xl text-yellow-500" />,
+    title: 'Yürüyüş',
+    description: 'Doğada yürüyüş yapmak, bana huzur ve ilham veriyor.'
   },
   {
     id: 'reading',
-    icon: FaBookOpen,
-    title: 'Watching Films',
-    description: 'I love watching films to dive into different worlds and discover new ideas.'
+    icon: <FaBookOpen className="text-5xl text-indigo-500" />,
+    title: 'Kitap Okuma',
+    description: 'Farklı dünyalara dalıp yeni fikirler keşfetmek için kitap okumayı seviyorum.'
   },
   {
-    id: 'football',
-    icon: FaStar,
-    title: 'Football',
-    description: 'Playing and watching football.'
+    id: 'astronomy',
+    icon: <FaStar className="text-5xl text-purple-500" />,
+    title: 'Astronomi',
+    description: 'Yıldızları ve uzayı incelemek, evrenin büyüklüğü hakkında düşündürüyor.'
   }
 ] as const;
+

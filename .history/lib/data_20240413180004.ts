@@ -122,7 +122,7 @@ export const hobbiesData = [
   {
     id: 'music',
     icon: FaMusic,
-    title: 'Music',
+    title: 'Müsic',
     description: 'Playing guitar and creating new melodies is a passion for me.'
   },
   {

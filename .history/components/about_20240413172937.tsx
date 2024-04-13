@@ -33,6 +33,7 @@ export default function About() {
       animate={{ opacity: 1, y: 0 }}
       exit="exit"
       id="about"
+      style={{ backgroundColor: bgBl }}
     >
       <SectionHeading>About me</SectionHeading>
       <motion.p

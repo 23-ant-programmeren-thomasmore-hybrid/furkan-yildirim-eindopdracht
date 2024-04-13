@@ -112,41 +112,4 @@ export const skillsData = [
 ] as const;
 
 
-export const hobbiesData = [
-  {
-    id: 'photography',
-    icon: FaCameraRetro,
-    title: 'Photography',
-    description: 'I love shooting nature scenes and immortalizing the moment.'
-  },
-  {
-    id: 'music',
-    icon: FaMusic,
-    title: 'Music',
-    description: 'Playing guitar and creating new melodies is a passion for me.'
-  },
-  {
-    id: 'coding',
-    icon: FaCode,
-    title: 'Coding',
-    description: 'I enjoy learning new technologies and developing projects.'
-  },
-  {
-    id: 'hiking',
-    icon: FaWalking,
-    title: 'Walking',
-    description: 'Walking in nature gives me peace and inspiration.'
-  },
-  {
-    id: 'reading',
-    icon: FaBookOpen,
-    title: 'Watching Films',
-    description: 'I love watching films to dive into different worlds and discover new ideas.'
-  },
-  {
-    id: 'football',
-    icon: FaStar,
-    title: 'Football',
-    description: 'Playing and watching football.'
-  }
-] as const;
+

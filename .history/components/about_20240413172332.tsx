@@ -1,12 +1,14 @@
 "use client";
 
 import React from "react";
-import { motion, useTransform } from "framer-motion";
+import { motion, useViewportScroll, useTransform } from "framer-motion";
 import SectionHeading from "./section-heading";
 import { useSectionInView } from "@/lib/hooks";
 
 export default function About() {
   const { ref } = useSectionInView("About");
+  const { scrollYProgress } = useViewportScroll();
+  const bgColor = useTransform(scrollYProgress, [0, 1], ["#ffffff", "#f0f0f0"]);
 
   const sectionVariants = {
     hidden: { opacity: 0, y: 50 },
@@ -29,10 +31,11 @@ export default function About() {
       ref={ref}
       className="mb-28 max-w-[45rem] text-center leading-8 sm:mb-40 scroll-mt-28"
       variants={sectionVariants}
-      initial={{ opacity: 0, y: 100 }}
-      animate={{ opacity: 1, y: 0 }}
+      initial="hidden"
+      animate="visible"
       exit="exit"
       id="about"
+      style={{ backgroundColor: bgColor }}
     >
       <SectionHeading>About me</SectionHeading>
       <motion.p
