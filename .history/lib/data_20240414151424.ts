@@ -154,7 +154,7 @@ export const hobbiesData = [
 ] as const;
 
 
-export const manifestoData = [
+const manifestoData = [
   {
     icon: FaUserGraduate,
     title: "Preserve the student in you",

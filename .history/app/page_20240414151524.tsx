@@ -6,7 +6,6 @@ import Skills from "@/components/skills";
 import Experience from "@/components/experience";
 import Contact from "@/components/contact";
 import Hobbies from "@/components/hobbies";
-import Manifesto from "@/components/manifesto";
 
 
 
@@ -16,7 +15,7 @@ export default function Home() {
       <Intro />
       <SectionDivider/>
       <About/>
-      <Manifesto/>
+      <
       <Projects/>
       <Skills/>
       <Experience/>

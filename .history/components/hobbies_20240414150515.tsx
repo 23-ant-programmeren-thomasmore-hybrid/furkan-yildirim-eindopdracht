@@ -18,15 +18,15 @@ function Hobbies() {
           {hobbiesData.map((hobby) => (
             <motion.div
               key={hobby.id}
-              className="overflow-hidden  shadow-lgp-6 
+              className="overflow-hidden rounded-lg shadow-lgp-6 
               bg-white border border-black/[0.1] rounded-xl px-5 py-3 dark:bg-white/10 dark:text-white/80"
               whileHover={{ scale: 1.05 }}
               whileTap={{ scale: 0.95 }}
             >
-              <div className="text-center ">
+              <div className="text-center">
                 <hobby.icon className={`text-5xl ${iconColors[hobby.id as keyof IconColorType ]}`} />
                 <h3 className="text-2xl font-semibold mt-2 mb-4">{hobby.title}</h3>
-                <p className="text-gray-700 dark:text-gray-300">{hobby.description}</p>
+                <p className="text-gray-700">{hobby.description}</p>
               </div>
             </motion.div>
           ))}

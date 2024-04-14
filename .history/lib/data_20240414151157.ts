@@ -6,7 +6,7 @@ import portfolioImg from "@/public/firstapp.png";
 import NBAapp from "@/public/nbaapp.png";
 import travelImg from "@/public/style.png";
 import { FaCameraRetro, FaMusic, FaCode, FaWalking, FaBookOpen, FaStar } from 'react-icons/fa';
-import { FaUserGraduate, FaSearch, FaRegLightbulb, FaUsers, FaProjectDiagram } from 'react-icons/fa';
+import { FaUserGraduate, FaSearch, FaStar, FaRegLightbulb, FaUsers, FaProjectDiagram } from 'react-icons/fa';
 
 
 
@@ -154,7 +154,7 @@ export const hobbiesData = [
 ] as const;
 
 
-export const manifestoData = [
+const manifestoData = [
   {
     icon: FaUserGraduate,
     title: "Preserve the student in you",
@@ -185,4 +185,4 @@ export const manifestoData = [
     title: "Think holistically",
     description: "Design sustainable and keep the brand in mind. Work with design systems, layout grids and pattern libraries to guarantee consistency and an easy design handoff to development teams."
   }
-] as const;
+];

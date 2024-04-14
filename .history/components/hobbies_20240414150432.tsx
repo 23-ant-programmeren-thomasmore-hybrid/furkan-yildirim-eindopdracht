@@ -14,19 +14,18 @@ function Hobbies() {
           <p className="mb-12 text-lg text-gray-600">Here's a glimpse of what I do in my spare time.</p>
         </div>
 
-        <div className="grid grid-cols-1 sm:grid-cols-2 lg:grid-cols-3 gap-4 ">
+        <div className="grid grid-cols-1 sm:grid-cols-2 lg:grid-cols-3 gap-4 bg-white border border-black/[0.1] rounded-xl px-5 py-3 dark:bg-white/10 dark:text-white/80">
           {hobbiesData.map((hobby) => (
             <motion.div
               key={hobby.id}
-              className="overflow-hidden  shadow-lgp-6 
-              bg-white border border-black/[0.1] rounded-xl px-5 py-3 dark:bg-white/10 dark:text-white/80"
+              className="overflow-hidden rounded-lg shadow-lg bg-white p-6"
               whileHover={{ scale: 1.05 }}
               whileTap={{ scale: 0.95 }}
             >
-              <div className="text-center ">
+              <div className="text-center">
                 <hobby.icon className={`text-5xl ${iconColors[hobby.id as keyof IconColorType ]}`} />
                 <h3 className="text-2xl font-semibold mt-2 mb-4">{hobby.title}</h3>
-                <p className="text-gray-700 dark:text-gray-300">{hobby.description}</p>
+                <p className="text-gray-700">{hobby.description}</p>
               </div>
             </motion.div>
           ))}

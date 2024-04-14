@@ -23,10 +23,10 @@ function Hobbies() {
               whileHover={{ scale: 1.05 }}
               whileTap={{ scale: 0.95 }}
             >
-              <div className="text-center ">
+              <div className="text-center bg-white">
                 <hobby.icon className={`text-5xl ${iconColors[hobby.id as keyof IconColorType ]}`} />
                 <h3 className="text-2xl font-semibold mt-2 mb-4">{hobby.title}</h3>
-                <p className="text-gray-700 dark:text-gray-300">{hobby.description}</p>
+                <p className="text-gray-700">{hobby.description}</p>
               </div>
             </motion.div>
           ))}
