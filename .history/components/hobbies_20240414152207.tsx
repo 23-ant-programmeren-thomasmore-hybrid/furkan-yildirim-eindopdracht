@@ -34,12 +34,8 @@ function Hobbies() {
               key={hobby.id}
               className="overflow-hidden  shadow-lgp-6 
               bg-white border border-black/[0.1] rounded-xl px-5 py-3 dark:bg-white/10 dark:text-white/80"
-              variants={itemVariants}
-            initial="hidden"
-            whileInView="visible"
-            viewport={{ once: true, amount: 0.5 }}
-            whileHover={{ scale: 1.05 }}
-            whileTap={{ scale: 0.95 }}
+              whileHover={{ scale: 1.05 }}
+              whileTap={{ scale: 0.95 }}
             >
               <div className="text-center ">
                 <hobby.icon className={`text-5xl ${iconColors[hobby.id as keyof IconColorType ]}`} />

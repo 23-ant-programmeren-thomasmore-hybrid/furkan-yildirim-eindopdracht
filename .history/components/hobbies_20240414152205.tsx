@@ -7,19 +7,8 @@ import SectionHeading from './section-heading';
 
 function Hobbies() {
 
-  const itemVariants = {
-    hidden: { opacity: 0, y: 50 },
-    visible: {
-      opacity: 1,
-      y: 0,
-      transition: {
-        type: 'spring', 
-        stiffness: 50,
-        damping: 20
-      }
-    }
-  };
 
+  
   return (
     <section className="mb-28 max-w-[60rem] text-center leading-8 sm:mb-40 scroll-mt-28 ">
       <div className="container mx-auto ">
@@ -34,12 +23,8 @@ function Hobbies() {
               key={hobby.id}
               className="overflow-hidden  shadow-lgp-6 
               bg-white border border-black/[0.1] rounded-xl px-5 py-3 dark:bg-white/10 dark:text-white/80"
-              variants={itemVariants}
-            initial="hidden"
-            whileInView="visible"
-            viewport={{ once: true, amount: 0.5 }}
-            whileHover={{ scale: 1.05 }}
-            whileTap={{ scale: 0.95 }}
+              whileHover={{ scale: 1.05 }}
+              whileTap={{ scale: 0.95 }}
             >
               <div className="text-center ">
                 <hobby.icon className={`text-5xl ${iconColors[hobby.id as keyof IconColorType ]}`} />
