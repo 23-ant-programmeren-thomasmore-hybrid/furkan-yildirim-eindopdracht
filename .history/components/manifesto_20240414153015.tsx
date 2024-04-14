@@ -3,10 +3,9 @@ import React from 'react';
 import { motion } from 'framer-motion';
 import { manifestoData } from '@/lib/data'; 
 import { useSectionInView } from '@/lib/hooks';
-import SectionHeading from './section-heading';
 
 export default function Manifesto() {
-  const { ref } = useSectionInView("Manifesto");
+  const { ref } = useSectionInView("About");
 
 
     const itemVariants = {
@@ -30,7 +29,7 @@ export default function Manifesto() {
     className="bg-gray-100 p-8 dark:bg-gray-800 mb-28 max-w-[60rem] text-center leading-8 sm:mb-40 scroll-mt-28">
       <div className="container mx-auto">
         <div className="text-center">
-          <SectionHeading>Manifesto</SectionHeading>
+          <h2 className="text-3xl font-bold mb-4 text-gray-900 dark:text-white">Manifesto</h2>
           <p className="mb-12 text-lg text-gray-600 dark:text-gray-300">My principles of design and operation:</p>
         </div>
 

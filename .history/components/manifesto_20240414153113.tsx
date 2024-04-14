@@ -6,7 +6,7 @@ import { useSectionInView } from '@/lib/hooks';
 import SectionHeading from './section-heading';
 
 export default function Manifesto() {
-  const { ref } = useSectionInView("Manifesto");
+  const { ref } = useSectionInView("About");
 
 
     const itemVariants = {

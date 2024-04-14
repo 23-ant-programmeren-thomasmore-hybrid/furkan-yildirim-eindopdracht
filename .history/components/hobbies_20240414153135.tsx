@@ -4,10 +4,9 @@ import React from 'react';
 import { motion } from 'framer-motion';
 import { hobbiesData } from '@/lib/data'; 
 import SectionHeading from './section-heading';
-import { useSectionInView } from '@/lib/hooks';
 
 function Hobbies() {
-  const { ref } = useSectionInView("Hobbies");
+  const { ref } = useSectionInView("About");
 
 
   const itemVariants = {
@@ -24,10 +23,7 @@ function Hobbies() {
   };
 
   return (
-    <section 
-    ref={ref}
-    id="hobbies"
-    className="mb-28 max-w-[60rem] text-center leading-8 sm:mb-40 scroll-mt-28 ">
+    <section className="mb-28 max-w-[60rem] text-center leading-8 sm:mb-40 scroll-mt-28 ">
       <div className="container mx-auto ">
         <div className="text-center">
         <SectionHeading>Hobbies</SectionHeading>

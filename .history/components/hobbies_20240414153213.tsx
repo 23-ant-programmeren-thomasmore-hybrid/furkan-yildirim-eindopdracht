@@ -7,7 +7,7 @@ import SectionHeading from './section-heading';
 import { useSectionInView } from '@/lib/hooks';
 
 function Hobbies() {
-  const { ref } = useSectionInView("Hobbies");
+  const { ref } = useSectionInView("About");
 
 
   const itemVariants = {
