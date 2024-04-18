@@ -40,7 +40,7 @@ export default function Header() {
                 href={link.hash}
                 onClick={() => {
                   setActiveSection(link.name),
-                  setTimeOfLastClick
+                  setTimeOfLastClick(Date.now)
                 }}
               >
                 {link.name}
