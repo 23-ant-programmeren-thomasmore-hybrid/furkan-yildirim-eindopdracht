@@ -49,7 +49,7 @@ export const links = [
 export const experiencesData = [
   {
     title: "Business",
-    location: "Istanbul, Turkey",
+    location: "Istanbul, Turkey.",
     description:
       "I studied business administration for 1 year at Marmara University. This foundational experience gave me a strong understanding of business fundamentals, which later helped me navigate the tech industry's business aspects. It was here that I first discovered my interest in technology and innovation.",
     icon: React.createElement(CgWorkAlt),
